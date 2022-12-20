@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "MemphisRiver";
+  src: url(fonts/MemphisRiver.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Roblox";
+  src: url(fonts/Roblox-Font-Regular.ttf) format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roblox";
+  src: url(fonts/Roblox-Font-Bold.ttf) format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Love";
+  src: url(fonts/LoveCrush-ZVn8Z.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Cartoon";
+  src: url(fonts/SinglyLinkedRegular-vmoRL.otf)
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #1a2980; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #26d0ce,
+    #1a2980
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #26d0ce,
+    #1a2980
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1 {
+  font-size: 6em;
+  font-family: "Love";
+  font-weight: bold;
+}
+
+h1 {
+  margin: 0;
+  color: rgb(255, 67, 123);
+}
+p {
+  font-family: "Cartoon";
+  font-size: 1.2em;
+  max-width: 50%;
+  text-align: center;
+  color: #fff;
+}
+body {
+  font-family: "Cartoon";
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Cartoon";
+  color: #fff;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="button"] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="button"]:hover {
+  background-color: #45a049;
+}
