@@ -9,3 +9,43 @@ function calculateMatch() {
   // display the percentage
   document.getElementById('matchPercentage').innerHTML = percentage + '% <3';
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Shalera <3 Quinten
